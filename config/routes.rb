@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   # in the Static Pages controller
   get 'static_pages/home'
   get 'static_pages/help'
+  get 'static_pages/about'
   root 'application#hello'
 end
