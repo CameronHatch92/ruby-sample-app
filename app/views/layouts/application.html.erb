@@ -5,6 +5,10 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%# # the below is a function, just without parenthesis
+    # first argument is string indicating path to stylesheet
+    # second argument is hash with two elements, indicating media type
+    # and telling Rails to use the turbolinks feature %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
